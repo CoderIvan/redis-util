@@ -1,0 +1,26 @@
+{
+  "name": "@z-ivan/redis-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoderIvan/redis-util"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "redis": "^3.0.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "ci": "npm run lint",
+    "test": "npm run lint"
+  }
+}
